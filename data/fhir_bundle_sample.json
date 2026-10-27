@@ -1,0 +1,1546 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:patient-patient-5955",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-5955",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 77.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-1",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-1",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-5955"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-1",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-1",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-5955"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-1"
+    },
+    "code": {
+     "text": "Low anterior resection"
+    },
+    "category": {
+     "text": "Colorectal"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T11:12:22+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Rectal cancer"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2487",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2487",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 54.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-2",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-2",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2487"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-2",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-2",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2487"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-2"
+    },
+    "code": {
+     "text": "Subtotal gastrectomy"
+    },
+    "category": {
+     "text": "Stomach"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T12:22:21+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Advanced gastric cancer"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2861",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2861",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 62.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-3",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-3",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2861"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-3",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-3",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2861"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-3"
+    },
+    "code": {
+     "text": "Cholecystectomy"
+    },
+    "category": {
+     "text": "Biliary/Pancreas"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:13:14+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Gallbladder stone"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-1903",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-1903",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 74.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-4",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-4",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-1903"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-4",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-4",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-1903"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-4"
+    },
+    "code": {
+     "text": "Distal gastrectomy"
+    },
+    "category": {
+     "text": "Stomach"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T13:49:50+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Advanced gastric cancer"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4416",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4416",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 66.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-5",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-5",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4416"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-5",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-5",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4416"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-5"
+    },
+    "code": {
+     "text": "Aneurysmal repair"
+    },
+    "category": {
+     "text": "Vascular"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T13:58:51+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Other"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": true
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-5586",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-5586",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 78.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-6",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-6",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-5586"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-6",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-6",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-5586"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-6"
+    },
+    "code": {
+     "text": "Cholecystectomy"
+    },
+    "category": {
+     "text": "Biliary/Pancreas"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:25:45+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Gallbladder polyp"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": true
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-5124",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-5124",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 52.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-7",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-7",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-5124"
+    },
+    "serviceType": {
+     "text": "Thoracic surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-7",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-7",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-5124"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-7"
+    },
+    "code": {
+     "text": "Lung lobectomy"
+    },
+    "category": {
+     "text": "Major resection"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T12:22:50+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Nontuberculous mycobacterial infection"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4328",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4328",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 81.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-8",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-8",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4328"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-8",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-8",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4328"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-8"
+    },
+    "code": {
+     "text": "Breast-conserving surgery"
+    },
+    "category": {
+     "text": "Breast"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:38:38+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Other"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2008",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2008",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 32.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-9",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-9",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2008"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-9",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-9",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2008"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-9"
+    },
+    "code": {
+     "text": "Cholecystectomy"
+    },
+    "category": {
+     "text": "Biliary/Pancreas"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:14:41+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Gallbladder stone"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2175",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2175",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 72.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-10",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-10",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2175"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-10",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-10",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2175"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-10"
+    },
+    "code": {
+     "text": "Distal gastrectomy"
+    },
+    "category": {
+     "text": "Stomach"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T13:49:52+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Early gastric cancer"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-3963",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-3963",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 56.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-11",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-11",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-3963"
+    },
+    "serviceType": {
+     "text": "Urology"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-11",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-11",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-3963"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-11"
+    },
+    "code": {
+     "text": "Transurethral resection of bladder tumor"
+    },
+    "category": {
+     "text": "Minor resection"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:27:45+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Other"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-491",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-491",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 46.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-12",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-12",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-491"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-12",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-12",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-491"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-12"
+    },
+    "code": {
+     "text": "Liver transplantation"
+    },
+    "category": {
+     "text": "Transplantation"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T16:40:03+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Hepatocellular carcinoma"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-531",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-531",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 67.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-13",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-13",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-531"
+    },
+    "serviceType": {
+     "text": "Thoracic surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-13",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-13",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-531"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-13"
+    },
+    "code": {
+     "text": "Metastasectomy"
+    },
+    "category": {
+     "text": "Minor resection"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T11:00:11+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Abnormal chest CT, lung nodule"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2037",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2037",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 23.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-14",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-14",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2037"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-14",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-14",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2037"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-14"
+    },
+    "code": {
+     "text": "Cholecystectomy"
+    },
+    "category": {
+     "text": "Biliary/Pancreas"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:08:35+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Gallbladder stone without obstruction"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4645",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4645",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 56.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-15",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-15",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4645"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-15",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-15",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4645"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-15"
+    },
+    "code": {
+     "text": "Hernia repair"
+    },
+    "category": {
+     "text": "Colorectal"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T08:58:30+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Other"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": true
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-362",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-362",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 57.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-16",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-16",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-362"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-16",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-16",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-362"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-16"
+    },
+    "code": {
+     "text": "Liver segmentectomy"
+    },
+    "category": {
+     "text": "Hepatic"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T11:34:27+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Hepatocellular carcinoma"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4343",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4343",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 85.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-17",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-17",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4343"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-17",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-17",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4343"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-17"
+    },
+    "code": {
+     "text": "Aneurysmal repair"
+    },
+    "category": {
+     "text": "Vascular"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T13:39:30+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Aneurysm, abdominal aorta"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4091",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4091",
+    "gender": "female",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 77.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-18",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-18",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4091"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-18",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-18",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4091"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-18"
+    },
+    "code": {
+     "text": "Transanal excision"
+    },
+    "category": {
+     "text": "Colorectal"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T09:13:36+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Other"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-4452",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-4452",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 74.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-19",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-19",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-4452"
+    },
+    "serviceType": {
+     "text": "General surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-19",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-19",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-4452"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-19"
+    },
+    "code": {
+     "text": "Pylorus preserving pancreaticoduodenectomy"
+    },
+    "category": {
+     "text": "Biliary/Pancreas"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T15:39:35+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Common bile duct cancer"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Open"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:patient-patient-2419",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "patient-2419",
+    "gender": "male",
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:age-at-surgery",
+      "valueAge": {
+       "value": 75.0,
+       "unit": "a",
+       "system": "http://unitsofmeasure.org",
+       "code": "a"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:encounter-encounter-20",
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "encounter-20",
+    "status": "finished",
+    "class": {
+     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+     "code": "IMP",
+     "display": "inpatient encounter"
+    },
+    "subject": {
+     "reference": "Patient/patient-2419"
+    },
+    "serviceType": {
+     "text": "Thoracic surgery"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:procedure-procedure-20",
+   "resource": {
+    "resourceType": "Procedure",
+    "id": "procedure-20",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/patient-2419"
+    },
+    "encounter": {
+     "reference": "Encounter/encounter-20"
+    },
+    "code": {
+     "text": "Lung lobectomy"
+    },
+    "category": {
+     "text": "Major resection"
+    },
+    "performedPeriod": {
+     "start": "2000-01-01T08:00:00+00:00",
+     "end": "2000-01-01T15:21:16+00:00"
+    },
+    "reasonCode": [
+     {
+      "text": "Lung cancer right"
+     }
+    ],
+    "extension": [
+     {
+      "url": "urn:surgery-duration-uncertainty:approach",
+      "valueString": "Videoscopic"
+     },
+     {
+      "url": "urn:surgery-duration-uncertainty:emergency",
+      "valueBoolean": false
+     }
+    ]
+   }
+  }
+ ]
+}

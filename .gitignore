@@ -1,0 +1,9 @@
+data/raw/
+docs/
+__pycache__/
+.ipynb_checkpoints/
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg

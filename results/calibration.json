@@ -1,0 +1,19 @@
+{
+  "conformal_log_halfwidth": 0.40680225400706505,
+  "cqr_adjustment_min": 13.010791838353185,
+  "cqr_by_department_min": {
+    "General surgery": 13.4,
+    "Gynecology": 20.2,
+    "Thoracic surgery": 11.2,
+    "Urology": 13.2
+  },
+  "calibration_cases_per_department": {
+    "General surgery": 1000,
+    "Thoracic surgery": 211,
+    "Gynecology": 37,
+    "Urology": 20
+  },
+  "n_train": 3836,
+  "n_cal": 1268,
+  "n_test": 1281
+}

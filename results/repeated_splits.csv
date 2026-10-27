@@ -1,0 +1,6 @@
+method,coverage_mean,coverage_sd,width_mean,score_mean,score_sd,worst_dept_cov_mean
+I1 procedure history,0.765,0.015,146.344,241.721,8.562,0.638
+I2 quantile GBM,0.677,0.016,122.817,238.715,7.518,0.609
+I3 conformal,0.805,0.01,150.272,236.847,8.432,0.766
+I4 CQR,0.801,0.013,148.495,231.463,6.626,0.738
+I5 CQR by department,0.803,0.013,149.628,231.858,6.424,0.761

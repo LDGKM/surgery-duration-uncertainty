@@ -1,0 +1,6 @@
+method,coverage,mean_width_min,interval_score,worst_department_coverage
+I1 procedure history,0.781,146.186,236.772,0.467
+I2 quantile GBM,0.689,123.588,235.272,0.567
+I3 conformal,0.82,151.359,226.167,0.767
+I4 CQR,0.816,149.61,230.498,0.6
+I5 CQR by department,0.815,150.136,230.6,0.6

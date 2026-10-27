@@ -1,0 +1,5 @@
+method,versus,mean_difference,sd,splits_where_better
+I4 CQR,I1 procedure history,-10.26,4.98,10
+I4 CQR,I2 quantile GBM,-7.25,1.66,10
+I4 CQR,I3 conformal,-5.38,4.87,9
+I5 CQR by department,I4 CQR,0.39,0.48,0

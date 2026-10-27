@@ -1,0 +1,4 @@
+model,MAE_min,RMSE_min,within_30min,R2
+B0 global median,84.387,111.547,0.192,-0.054
+B1 procedure history,48.28,71.911,0.488,0.562
+GBM median,43.898,65.165,0.511,0.64

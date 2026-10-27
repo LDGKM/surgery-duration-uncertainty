@@ -1,0 +1,51 @@
+group,n,method,coverage,width
+Department: General surgery,981,I1 procedure history,0.786,143.944
+Department: General surgery,981,I2 quantile GBM,0.687,120.172
+Department: General surgery,981,I3 conformal,0.83,152.185
+Department: General surgery,981,I4 CQR,0.826,146.194
+Department: General surgery,981,I5 CQR by department,0.828,146.887
+Department: Gynecology,53,I1 procedure history,0.698,134.517
+Department: Gynecology,53,I2 quantile GBM,0.717,138.758
+Department: Gynecology,53,I3 conformal,0.792,137.574
+Department: Gynecology,53,I4 CQR,0.811,164.78
+Department: Gynecology,53,I5 CQR by department,0.811,179.168
+Department: Thoracic surgery,217,I1 procedure history,0.825,166.28
+Department: Thoracic surgery,217,I2 quantile GBM,0.71,139.118
+Department: Thoracic surgery,217,I3 conformal,0.793,150.476
+Department: Thoracic surgery,217,I4 CQR,0.802,165.14
+Department: Thoracic surgery,217,I5 CQR by department,0.788,161.543
+Department: Urology,30,I1 procedure history,0.467,94.762
+Department: Urology,30,I2 quantile GBM,0.567,96.154
+Department: Urology,30,I3 conformal,0.767,155.109
+Department: Urology,30,I4 CQR,0.6,122.176
+Department: Urology,30,I5 CQR by department,0.6,122.58
+Approach: Open,675,I1 procedure history,0.791,152.84
+Approach: Open,675,I2 quantile GBM,0.716,132.009
+Approach: Open,675,I3 conformal,0.8,144.523
+Approach: Open,675,I4 CQR,0.836,158.03
+Approach: Open,675,I5 CQR by department,0.839,158.891
+Approach: Robotic,68,I1 procedure history,0.618,158.022
+Approach: Robotic,68,I2 quantile GBM,0.588,144.84
+Approach: Robotic,68,I3 conformal,0.868,217.372
+Approach: Robotic,68,I4 CQR,0.662,170.862
+Approach: Robotic,68,I5 CQR by department,0.662,171.695
+Approach: Videoscopic,538,I1 procedure history,0.79,136.342
+Approach: Videoscopic,538,I2 quantile GBM,0.669,110.337
+Approach: Videoscopic,538,I3 conformal,0.84,151.593
+Approach: Videoscopic,538,I4 CQR,0.81,136.359
+Approach: Videoscopic,538,I5 CQR by department,0.805,136.426
+Predicted length: short,427,I1 procedure history,0.78,99.166
+Predicted length: short,427,I2 quantile GBM,0.691,83.913
+Predicted length: short,427,I3 conformal,0.801,83.108
+Predicted length: short,427,I4 CQR,0.862,109.935
+Predicted length: short,427,I5 CQR by department,0.864,110.677
+Predicted length: medium,427,I1 procedure history,0.799,165.027
+Predicted length: medium,427,I2 quantile GBM,0.698,140.161
+Predicted length: medium,427,I3 conformal,0.787,141.315
+Predicted length: medium,427,I4 CQR,0.822,166.183
+Predicted length: medium,427,I5 CQR by department,0.817,166.468
+Predicted length: long,427,I1 procedure history,0.766,174.366
+Predicted length: long,427,I2 quantile GBM,0.679,146.689
+Predicted length: long,427,I3 conformal,0.874,229.656
+Predicted length: long,427,I4 CQR,0.763,172.711
+Predicted length: long,427,I5 CQR by department,0.763,173.263

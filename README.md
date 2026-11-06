@@ -4,7 +4,7 @@
 operating-room schedule?** A small reproducible study on 6,385 surgeries from the open VitalDB dataset,
 combining prediction intervals (conformal prediction) with a mixed-integer scheduling model.
 
-**Read the [paper-style report (PDF)](report/report.pdf)** · browse the [notebook](notebooks/surgery_duration_uncertainty.ipynb)
+**Read the [paper-style report (PDF)](https://deogratias-loutou.fr/rapports/plannings-bloc-operatoire.pdf)** · browse the [notebook](notebooks/surgery_duration_uncertainty.ipynb)
 
 ![Planning rules: utilisation vs overtime](figures/03_schedule_frontier.png)
 

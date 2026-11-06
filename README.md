@@ -55,4 +55,4 @@ models operating-room time only and uses random patient-grouped splits instead o
 from one hospital and may not transfer to another.
 
 Author: Deo Gratias Loutou, Master's student in computer science, Université de Haute-Alsace —
-[portfolio](https://ldgkm.github.io) · [GitHub](https://github.com/LDGKM)
+[portfolio](https://deogratias-loutou.fr) · [GitHub](https://github.com/LDGKM)
